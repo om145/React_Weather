@@ -1,0 +1,30 @@
+.result{
+    height: 300px;
+    width: 600px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: transparent;
+    border: 2px solid black;
+    box-shadow: 4px 4px rgba(137, 190, 245, 0.4);
+    backdrop-filter: blur(8px);
+
+}
+
+.name{
+    text-align: center;
+    font-size: 45px;
+}
+
+
+.temp, .icon_type{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.enter_name{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 40px;
+}
